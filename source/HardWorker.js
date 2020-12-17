@@ -1,4 +1,4 @@
-/** Unifying Worker API for the active browsers, and simplify to usage.  */
+/** The easiest way to use the Worker API.  */
 class HardWorker {
   /**
   * Creating and applying config.

@@ -1,7 +1,7 @@
 {
   "name": "hardworker",
   "version": "1.0.0",
-  "description": "Worker api",
+  "description": "The easiest way to use the Worker API",
   "main": "source/index.js",
   "scripts": {
     "build": "webpack --config ./utils/production.config.js",
