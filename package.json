@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config ./utils/production.config.js",
     "development": "webpack serve --config ./utils/development.config.js",
-    "generate:docs": "npx jsdoc -d ./docs/ ./source/index.js",
+    "generate:docs": "npx jsdoc -d ./docs/ ./source/HardWorker.js",
     "serve:docs": "npx serve ./docs/",
     "serve": "npx serve ./example/"
   },
