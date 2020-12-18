@@ -37,3 +37,9 @@ The easiest way to use the Worker API
     })
   };
 ```
+### Configurations
+| Name       | Description                    | Type    | Default                            |
+|------------|--------------------------------|---------|------------------------------------|
+| maxThread  | Workers maximum thread count.  | Integer | navigator.hardwareConcurrency or 1 |
+| minThread  | Workers minimum thread count.  | Integer | 1                                  |
+| multiplier | Threat multiplier.             | Float   | 1                                  |
