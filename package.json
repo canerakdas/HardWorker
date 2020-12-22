@@ -2,11 +2,11 @@
   "name": "hardworker",
   "version": "1.0.0",
   "description": "The easiest way to use the Worker API",
-  "main": "source/index.js",
+  "main": "source/hard-worker.js",
   "scripts": {
     "build": "webpack --config ./utils/production.config.js",
     "development": "webpack serve --config ./utils/development.config.js",
-    "generate:docs": "npx jsdoc -d ./docs/ ./source/HardWorker.js",
+    "generate:docs": "npx jsdoc -d ./docs/ ./source/hard-worker.js",
     "serve:docs": "npx serve ./docs/",
     "serve": "npx serve ./example/"
   },

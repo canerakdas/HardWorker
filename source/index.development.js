@@ -1,2 +1,2 @@
-import HardWorker from './HardWorker';
+import HardWorker from './hard-worker';
 window.HardWorker = HardWorker;

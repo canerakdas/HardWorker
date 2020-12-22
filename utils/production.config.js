@@ -2,7 +2,7 @@ const path = require('path');
 module.exports = [{
   mode: 'production',
   entry: {
-    bundle: path.join(__dirname, '../', 'source', 'index.js')
+    bundle: path.join(__dirname, '../', 'source', 'hard-worker.js')
   },
   output: {
     path: path.join(__dirname, '../', 'dist'),
